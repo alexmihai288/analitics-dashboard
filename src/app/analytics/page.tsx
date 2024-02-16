@@ -36,6 +36,7 @@ const page: FC<pageProps> = async ({}) => {
         <AnalyticsDashboard
           avgVisitorsPerDay={avgVisitorsPerDay}
           amtVisitorsToday={amtVisitorsToday}
+          timeseriesPageviews={pageviews}
         />
       </div>
     </div>
